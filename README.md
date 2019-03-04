@@ -1,2 +1,16 @@
-# SimpleSendEmail
-Simple SendEmail By C++ (VS2013)
+﻿# 简单的邮件发送(C++)
+# 可以实现邮件群发和对自己的手机发送特定短信提醒
+#### 说明
++ 小白刚学C 被C++的字符串搞死了
++ 使用是 为了给自己的手机发短信(通过139的邮件提醒)
++ 注意邮件要开启stamp
++ 用C++写的原因是 生成的体积最小, 相当于做成API供其他程序调用
+#### 使用说明	
+-a Account 发送邮件的账号
+-p Password 发送邮件的密码
+-s Send 给谁
+-t Thema 邮件主题
+-c Content 邮件内容
+示例:
+1.用于邮箱给手机(移动)发短信: 
+-a xxxxxxx@qq.com -p password -s xxxxxxx@139.com -t "这是邮件主体" -c "这是邮件内容"
